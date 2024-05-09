@@ -43,6 +43,9 @@ a:hover {
 .secao {
     border: solid aliceblue;
     height: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
 }
 
 footer{
@@ -77,4 +80,29 @@ input {
 input [type="radio"]
 {
     width: auto;
+}
+
+#id-secao2 {
+    padding: 40px;
+}
+
+#img {
+    height: 300px;
+    width: 300px;
+}
+
+.item-info {
+    width: 100%;
+}
+
+.item1 .item-info {
+    text-align: left;
+}
+
+.item2 .item-info {
+    text-align: left;
+}
+
+.item3 .item-info {
+    text-align: left;
 }
