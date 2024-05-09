@@ -24,11 +24,7 @@ nav .nav-links ul {
 nav .nav-links ul li a {
     color: white;
     text-decoration: none;
-    padding: 15px;
-}
-
-nav .nav-login {
-    background-color: black;
+    padding: 40px;
 }
 
 nav .nav-login a {
@@ -45,7 +41,8 @@ a:hover {
     height: 100%;
     display: flex;
     justify-content: space-around;
-    text-align: center;
+    align-items: center;
+    background-color: rgb(247, 250, 250);
 }
 
 footer{
@@ -77,32 +74,53 @@ input {
     border-radius: 5px;
 }
 
-input [type="radio"]
-{
-    width: auto;
+#logo {
+    float: left; 
+    width: 100px; 
+    margin-top: 10px; 
+    margin-right: 50px; 
+    margin-bottom: 10px; 
 }
 
-#id-secao2 {
+#id-secao2, #id-secao3, #id-secao4, #id-secao5 {
     padding: 40px;
 }
 
 #img {
     height: 300px;
     width: 300px;
+    border-radius: 20px;
+    border: solid black;
 }
 
 .item-info {
     width: 100%;
-}
-
-.item1 .item-info {
     text-align: left;
 }
 
-.item2 .item-info {
-    text-align: left;
+#linke {
+    color:white;
+    text-decoration: none;
+    padding: 20px;
 }
 
-.item3 .item-info {
-    text-align: left;
+.item1, .item2, .item3 {
+    flex: 1;
+    max-width: calc(33.33% - 40px); 
+}
+
+.items {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    flex-wrap: wrap; 
+}
+
+.item1, .item2, .item3 {
+    margin: 0 20px; 
+}
+
+button {
+    background-color:rgba(61, 61, 115, 0.423);
+    border: solid rgba(61, 61, 115, 0.423);
 }
